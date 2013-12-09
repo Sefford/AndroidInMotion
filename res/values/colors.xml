@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_card_text">#FF474548</color>
+    <color name="black_list_big_text">#FF38373A</color>
+    <color name="blue_center_fever_gradient">#FF424B95</color>
+    <color name="blue_fever_gradient">#FF32A8D9</color>
+    <color name="blue_facebook">#FF335795</color>
+    <color name="grey_actionbar_text">#80252526</color>
+    <color name="grey_actionbar_background">#FFEBE6EF</color>
+    <color name="grey_actionbar_first_border">#FFE0DCE4</color>
+    <color name="grey_actionbar_second_border">#FFFBFFFF</color>
+    <color name="grey_button">#FFF5F3F8</color>
+    <color name="grey_button_pressed">#FF807E81</color>
+    <color name="grey_city_card_border">#FFE7E3F2</color>
+    <color name="grey_city_card_solid">#FFDAD9E8</color>
+    <color name="grey_city_card_solid_pressed">#FF7271E8</color>
+    <color name="grey_list_divider">#FFDFDCE1</color>
+    <color name="grey_list_small_text">#FF787679</color>
+    <color name="purple_button">#FF735D9B</color>
+    <color name="purple_button_pressed">#FF3D3151</color>
+    <color name="purple_fever_gradient">#FF5A2879</color>
+    <color name="white_text_60">#9AFFFFFF</color>
+    <color name="white_grey_blue">#FFE6E6FF</color>
+    <color name="white_text_pressed">#C0BEBEBE</color>
+    <color name="green_gingerbread">#FF94BD5E</color>
+    <color name="blue_ics">#FF0084D1</color>
+    <color name="red_kk">#FFC5000B</color>
+</resources>

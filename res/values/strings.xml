@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android In Motion</string>
+
+    <!-- Slide 1-->
+    <string name="slide1_title">ANDROID IN\nMOTION</string>
+    <string name="slide14_text">target.animate()\n .translationY(200)\n .setDuration(350)\n .setInterpolator(new
+        AccelerateInterpolator())\n .start();
+    </string>
+    <string name="slide15_middle_text">Predefined ones by just\nanimateLayoutChanges=true</string>
+</resources>

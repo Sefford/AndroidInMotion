@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_height="100dip"
+            android:layout_width="100dip"
+            android:layout_marginTop="48dip"
+            android:layout_marginLeft="64dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/slide2_avatar"/>
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:layout_alignTop="@id/iv_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dip"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:text="Saúl Díaz González"/>
+
+    <TextView
+            android:id="@+id/tv_hashtags"
+            android:layout_below="@id/tv_name"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_text_pressed"
+            android:textSize="32sp"
+            android:text="#geeky #android #developer"/>
+
+    <ImageView android:id="@+id/iv_indra_logo"
+               android:layout_height="64dip"
+               android:layout_width="64dip"
+               android:layout_marginLeft="80dip"
+               android:layout_marginTop="32dip"
+               android:layout_below="@id/iv_avatar"
+               android:src="@drawable/slide2_indralogo"
+               android:alpha="0"/>
+
+    <ImageView android:id="@+id/iv_tuenti_logo"
+               android:layout_height="64dip"
+               android:layout_width="64dip"
+               android:layout_marginTop="32dip"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/iv_avatar"
+               android:src="@drawable/slide2_tuentilogo"
+               android:alpha="0"/>
+
+    <ImageView android:id="@+id/iv_fever_logo"
+               android:layout_height="64dip"
+               android:layout_width="64dip"
+               android:layout_marginRight="80dip"
+               android:layout_marginTop="32dip"
+               android:layout_alignParentRight="true"
+               android:layout_below="@id/iv_avatar"
+               android:src="@drawable/slide2_feverlogo"
+               android:alpha="0"/>
+
+    <ImageView android:id="@+id/iv_as_logo"
+               android:layout_height="64dip"
+               android:layout_width="64dip"
+               android:layout_marginLeft="160dip"
+               android:layout_marginBottom="8dip"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/slide2_androidstartup"
+               android:layout_centerHorizontal="true"
+               android:alpha="0"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+            android:color="@color/grey_city_card_border"
+            android:dashWidth="2dip"/>
+    <corners android:radius="4dip"/>
+    <solid android:color="@color/grey_city_card_solid"/>
+</shape>

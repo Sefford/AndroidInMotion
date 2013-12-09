@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/iv_protip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/slide23_protip"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"/>
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dip"
+            android:layout_marginLeft="8dip"
+            style="@style/text_slide_title"
+            android:text="Animations ProTip #3"/>
+
+</RelativeLayout>

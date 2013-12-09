@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="64dip"
+            android:text="User Experience"/>
+    <ImageView
+            android:id="@+id/iv_eye"
+            android:layout_centerInParent="true"
+            android:layout_height="96dip"
+            android:layout_width="wrap_content"
+            android:translationX="-12dip"
+            android:src="@drawable/slide3_eye"
+            android:alpha="0"/>
+
+    <ImageView
+            android:id="@+id/iv_brain"
+            android:layout_centerInParent="true"
+            android:layout_height="96dip"
+            android:layout_width="wrap_content"
+            android:translationX="12dip"
+            android:src="@drawable/slide3_brain"
+            android:alpha="0"/>
+
+
+</RelativeLayout>

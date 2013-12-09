@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            style="@style/text_slide_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layout Transitions"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dip"/>
+
+    <TextView
+            android:id="@+id/tv_first_line"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dip"
+            android:text="LayoutAnimation's big brother"
+            android:layout_marginLeft="12dip"/>
+
+    <TextView
+            android:id="@+id/tv_second_line"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_first_line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dip"
+            android:text="@string/slide15_middle_text"
+            android:layout_marginLeft="12dip"/>
+    <TextView
+            android:id="@+id/tv_third_line"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_second_line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dip"
+            android:text="Customizable"
+            android:layout_marginLeft="12dip"/>
+</RelativeLayout>

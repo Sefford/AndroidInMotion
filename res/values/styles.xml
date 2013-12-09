@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_title">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="text_slide_title">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="text_normal">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white_grey_blue</item>
+    </style>
+</resources>

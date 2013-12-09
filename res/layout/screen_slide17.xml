@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            style="@style/text_slide_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FragmentTransactions"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dip"/>
+    <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allows customizing Fragments animations on entering and exiting"
+            android:layout_marginTop="96dip"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animators on ICS, Animations on Support"
+            android:layout_marginTop="256dip"
+            android:textSize="28dip"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>
